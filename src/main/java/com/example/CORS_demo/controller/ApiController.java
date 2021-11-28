@@ -3,7 +3,6 @@ package com.example.CORS_demo.controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:9000")
 public class ApiController {
 
     @GetMapping("/get1")
